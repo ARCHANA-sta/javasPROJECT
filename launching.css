@@ -1,0 +1,51 @@
+*{
+
+    margin:0;
+    padding: 0;
+    font-family: "poppins, sans-serif";
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+
+
+}
+ 
+
+.content h1 span{
+    color: #ff3753;
+
+}
+
+.content button img{
+    width: 15px;
+    margin-left: 10px;
+}
+
+.launch-time div{
+    flex-basis: 100px;
+}
+.launch-time div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+}
+
+.rocket{
+    width: 250px;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    animation: rocket 4s linear infinite;
+}
+
+@keyframes rocket{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    100%{
+        bottom: 0;
+        opacity: 1;
+    }
+    
+}
